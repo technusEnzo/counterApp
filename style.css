@@ -1,0 +1,33 @@
+body {
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
+    height: 100vh; /* Make body take up the full viewport height */
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background-image: url('background_image.jpg'); /* Replace with your image path */
+    background-size: cover; /* Cover the entire background */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    background-position: center; /* Center the image */
+    font-family: sans-serif;
+    color: white; /* Example text color */
+}
+
+.container {
+    text-align: center; /* Center counter and buttons */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for content */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#counter {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
