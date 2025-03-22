@@ -12,7 +12,12 @@ incrementButton.addEventListener('click', () => {
 
 decrementButton.addEventListener('click', () => {
     count--;
+    if (count < 0){
+        count = 0;
+        counterDisplay.textContent = count;
+    } else {
     counterDisplay.textContent = count;
+    }
 });
 
 multiplyCounterButton.addEventListener('click', () => {
